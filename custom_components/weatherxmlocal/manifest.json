@@ -1,11 +1,14 @@
 {
-    "domain": "weatherxmlocal",
-    "name": "WeatherXM Local",
-    "version": "1.0.0",
-    "documentation": "https://github.com/StingraySA/weatherxmlocal-homeassistant",
-    "requirements": [],
-    "dependencies": [],
-    "codeowners": ["@StingraySA"],
-    "config_flow": true
-  }
-  
+  "domain": "weatherxmlocal",
+  "name": "WeatherXM Local",
+  "documentation": "https://github.com/StingraySA/weatherxmlocal-homeassistant",
+  "requirements": [
+    "pyserial==3.5"
+  ],
+  "dependencies": [],
+  "codeowners": [
+    "@StingraySA"
+  ],
+  "version": "1.0.0",
+  "config_flow": true
+}
