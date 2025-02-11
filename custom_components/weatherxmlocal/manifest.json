@@ -1,0 +1,11 @@
+{
+    "domain": "weatherxmlocal",
+    "name": "WeatherXM Local",
+    "version": "1.0.0",
+    "documentation": "https://github.com/StingraySA/weatherxmlocal-homeassistant",
+    "requirements": [],
+    "dependencies": [],
+    "codeowners": ["@StingraySA"],
+    "config_flow": true
+  }
+  
